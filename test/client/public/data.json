@@ -1,0 +1,294 @@
+{
+  "playersData" : [
+    {
+      "ID":1,
+      "number" : 1,
+      "name":"Stefan Marinović",
+      "nationality":"NZL",
+      "position":"G",
+      "height":1.91,
+      "weight":92,
+      "dob": "1991-10-07",
+      "birthplace":"Auckland"
+    },
+    {
+      "ID":2,
+      "number" : 2,
+      "name":"Doneil Henry",
+      "nationality":"CAN",
+      "position":"D",
+      "height":1.88,
+      "weight":82,
+      "dob": "1993-04-20",
+      "birthplace":"Brampton"
+    },
+    {
+      "ID":3,
+      "number" : 3,
+      "name":"Sean Franklin",
+      "nationality":"USA",
+      "position":"D",
+      "height":1.78,
+      "weight":70,
+      "dob": "1985-03-21",
+      "birthplace":"Panorama City"
+    },
+    {
+      "ID":4,
+      "number" : 4,
+      "name":"Kendall Waston",
+      "nationality":"CRC",
+      "position":"D",
+      "height":1.96,
+      "weight":88,
+      "dob": "1988-01-01",
+      "birthplace":"San José"
+    },
+    {
+      "ID":5,
+      "number" : 6,
+      "name":"Efrain Juárez",
+      "nationality":"MEX",
+      "position":"D",
+      "height":1.72,
+      "weight":65,
+      "dob": "1988-02-22",
+      "birthplace":"Mexico City"
+    },
+    {
+      "ID":6,
+      "number":8,
+      "name":"Bernie Ibini-Isei",
+      "nationality":"AUS",
+      "position":"F",
+      "height":1.87,
+      "weight":73,
+      "dob": "1992-09-12",
+      "birthplace":"Port Harcourt"
+    },
+    {
+      "ID":7,
+      "number" : 9,
+      "name":"Anthony Blondell",
+      "nationality":"VEN",
+      "position":"F",
+      "height":1.86,
+      "weight":77,
+      "dob": "1994-05-17",
+      "birthplace":"Cumaná"
+    },
+    {
+      "ID":8,
+      "number" : 11,
+      "name":"Nicolás Mezquida",
+      "nationality":"URU",
+      "position":"F",
+      "height":1.72,
+      "weight":66,
+      "dob": "1992-01-21",
+      "birthplace":"Paysandú"
+    },
+    {
+      "ID":9,
+      "number" : 2,
+      "name":"Brian Rowe",
+      "nationality":"USA",
+      "position":"G",
+      "height":1.85,
+      "weight":84,
+      "dob": "1988-11-16",
+      "birthplace":"Chicago"
+    },
+    {
+      "ID":10,
+      "number" : 13,
+      "name":"Cristian Techera",
+      "nationality":"URU",
+      "position":"M",
+      "height":1.57,
+      "weight":68,
+      "dob": "1992-05-31",
+      "birthplace":"Paysandú"
+    },
+    {
+      "ID":11,
+      "number" : 14,
+      "name":"David Edgar",
+      "nationality":"CAN",
+      "position":"D",
+      "height":1.88,
+      "weight":70,
+      "dob": "1987-05-19",
+      "birthplace":"Kitchener"
+    },
+    {
+      "ID":12,
+      "number" : 17,
+      "name":"Marcel de Jong",
+      "nationality":"CAD",
+      "position":"D",
+      "height":1.74,
+      "weight":73,
+      "dob": "1986-10-15",
+      "birthplace":"New Market"
+    },
+    {
+      "ID":13,
+      "number" : 18,
+      "name":"José Aja",
+      "nationality":"URU",
+      "position":"D",
+      "height":1.93,
+      "weight":84,
+      "dob": "1993-05-10",
+      "birthplace":"Montevideo"
+    },
+    {
+      "ID":14,
+      "number" : 19,
+      "name":"Erik Hurtado",
+      "nationality":"USA",
+      "position":"F",
+      "height":1.78,
+      "weight":82,
+      "dob": "1990-11-05",
+      "birthplace":"Fredericksburg"
+    },
+    {
+      "ID":15,
+      "number":20,
+      "name":"Brek Shea",
+      "nationality":"USA",
+      "position":"M",
+      "height":1.90,
+      "weight":82,
+      "dob": "1990-02-28",
+      "birthplace":"College Station"
+    },
+
+    {
+      "ID":16,
+      "number" : 22,
+      "name":"Aaron Maund",
+      "nationality":"USA",
+      "position":"D",
+      "height":1.85,
+      "weight":84,
+      "dob": "1990-09-19",
+      "birthplace":"Dorchester, MA"
+    },
+    {
+      "ID":17,
+      "number" : 23,
+      "name":"Kei Kamara",
+      "nationality":"SLE",
+      "position":"F",
+      "height":1.88,
+      "weight":75,
+      "dob": "1984-09-01",
+      "birthplace":"Lawndale"
+    },
+    {
+      "ID":18,
+      "number" : 28,
+      "name":"Jake Nerwinski",
+      "nationality":"USA",
+      "position":"D",
+      "height":1.83,
+      "weight":80,
+      "dob": "1994-10-17",
+      "birthplace":"Lawrenceville"
+    },
+    {
+      "ID":19,
+      "number" : 29,
+      "name":"Yordi Reyna",
+      "nationality":"PER",
+      "position":"F",
+      "height":1.69,
+      "weight":68,
+      "dob": "1993-09-17",
+      "birthplace":"Chiclayo"
+    },
+    {
+      "ID":20,
+      "number" : 31,
+      "name":"Russell Teibert",
+      "nationality":"CAN",
+      "position":"M",
+      "height":1.70,
+      "weight":66,
+      "dob": "1992-12-22",
+      "birthplace":"Niagara Falls"
+    },
+    {
+      "ID":21,
+      "number" : 35,
+      "name":"Deybi Flores",
+      "nationality":"HON",
+      "position":"M",
+      "height":1.83,
+      "weight":68,
+      "dob": "1996-06-16",
+      "birthplace":"San Pedro Sula"
+    },
+    {
+      "ID":22,
+      "number" : 45,
+      "name":"Myer Bevan",
+      "nationality":"NZL",
+      "position":"F",
+      "height":1.84,
+      "weight":77,
+      "dob": "1997-04-23",
+      "birthplace":"Auckland"
+    },
+
+    {
+      "ID":23,
+      "number" : 46,
+      "name":"Brett Levis",
+      "nationality":"CAN",
+      "position":"M",
+      "height":1.73,
+      "weight":71,
+      "dob": "1993-03-29",
+      "birthplace":"Saskatoon"
+    },
+    {
+      "ID":24,
+      "number":66,
+      "name":"Ali Ghazal",
+      "nationality":"EGY",
+      "position":"M",
+      "height":1.90,
+      "weight":82,
+      "dob": "1992-02-01",
+      "birthplace":"Maadi"
+    },
+    {
+      "ID":25,
+      "number" : 67,
+      "name":"Alphonso Davies",
+      "nationality":"CAN",
+      "position":"F",
+      "height":1.78,
+      "weight":69,
+      "dob": "2000-11-02",
+      "birthplace":"Montovia"
+    },
+    {
+      "ID":26,
+      "number" : 77,
+      "name":"Jordon Mutch",
+      "nationality":"ENG",
+      "position":"M",
+      "height":1.75,
+      "weight":65,
+      "dob": "1992-12-02",
+      "birthplace":"Birmingham"
+    }
+  ]
+  
+}
+
