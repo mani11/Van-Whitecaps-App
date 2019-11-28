@@ -6,12 +6,11 @@ import search from '../search/search';
 
 class SearchComponent extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   handleChange(e) {
     let searchString = e.target.value;
+    if (searchString === null || searchString.length === 0) {
+      return
+    }
     let filteredData = search(searchString, this.props.playerData);
     this.props.onSearch(filteredData);
 

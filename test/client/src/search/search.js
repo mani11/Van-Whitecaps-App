@@ -7,12 +7,8 @@
  */
 const applySearch = (key, playerData) => {
 
-  if (key == null || key.length === 0) {
-    return playerData;
-  }
-
-  let searchResult = playerData.filter((player) => {
-    const { ID, number, name, nationality, position, height, weight, dob, birthplace } = player;
+  return playerData.filter((player) => {
+    const { number, name, nationality, position, height, weight, dob, birthplace } = player;
     key = key.toLowerCase();
     if (name.toLowerCase().includes(key) ||
       nationality.toLowerCase().includes(key) ||
@@ -23,10 +19,10 @@ const applySearch = (key, playerData) => {
       height.toString().includes(key) ||
       number.toString().includes(key)
     ) {
-      return player;
+      return true;
     }
+    return false;
   })
-  return searchResult;
 }
 
 export default applySearch;

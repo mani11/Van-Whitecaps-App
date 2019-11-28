@@ -3,10 +3,6 @@ import { sortPlayerData } from '../sorter/sortPlayers';
 
 class TableComponent extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-  
   sortTableData(e) {
     const colName = e.target.innerText;
     let sortedData = sortPlayerData(colName, this.props.playerData);
@@ -16,9 +12,9 @@ class TableComponent extends Component {
   renderTableData() {
     if (this.props.playerData.length > 0) {
       return this.props.playerData.map((player) => {
-        const { ID, number, name, nationality, position, height, weight, dob, birthplace } = player;
+        const { number, name, nationality, position, height, weight, dob, birthplace } = player;
         return (
-          <tr key={ID}>
+          <tr key={number}>
             <td>{number}</td>
             <td>{name}</td>
             <td>{nationality}</td>
@@ -38,11 +34,9 @@ class TableComponent extends Component {
     if (this.props.playerData.length > 0) {
       const tableHead = Object.keys(this.props.playerData[0]);
       return tableHead.map(heading => {
-        if (heading != "ID") {
           return (
             <th key={heading} onClick={(e) => { this.sortTableData(e) }}>{heading.toUpperCase()}</th>
           )
-        }
       })
     }
   }
@@ -55,7 +49,7 @@ class TableComponent extends Component {
           </tr>
         </thead>
         <tbody>
-          {this.props.error ? <p><i>No matching results</i></p> : this.renderTableData()}
+          {this.props.error ? <tr><td colSpan="8"><i>No matching results</i></td></tr> : this.renderTableData()}
         </tbody>
       </table>
     )

@@ -8,15 +8,13 @@ const AggregatedComponent = (props) => {
 
   let aggregatedDataToDisplay = [];
   const aggregatedData = aggregatePlayersByNationality(props.displayData);
-  if (aggregatedData.size > 0) {
     aggregatedDataToDisplay = Array.from(aggregatedData).map(([nationality, noOfPlayers]) => {
       return (
-        <div className="App-aggregatedComponent-div">
+        <div key={nationality} className="App-aggregatedComponent-div">
           <p className="App-aggregatedComponent-p">{nationality} : {noOfPlayers}</p>
         </div>
       )
     })
-  }
   return (
     <div className="App-aggregatedComponent-container">
       {props.error ? "" : aggregatedDataToDisplay}

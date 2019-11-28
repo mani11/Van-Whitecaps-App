@@ -1,7 +1,6 @@
 {
   "playersData" : [
     {
-      "ID":1,
       "number" : 1,
       "name":"Stefan Marinović",
       "nationality":"NZL",
@@ -12,7 +11,6 @@
       "birthplace":"Auckland"
     },
     {
-      "ID":2,
       "number" : 2,
       "name":"Doneil Henry",
       "nationality":"CAN",
@@ -23,7 +21,6 @@
       "birthplace":"Brampton"
     },
     {
-      "ID":3,
       "number" : 3,
       "name":"Sean Franklin",
       "nationality":"USA",
@@ -34,7 +31,6 @@
       "birthplace":"Panorama City"
     },
     {
-      "ID":4,
       "number" : 4,
       "name":"Kendall Waston",
       "nationality":"CRC",
@@ -45,7 +41,6 @@
       "birthplace":"San José"
     },
     {
-      "ID":5,
       "number" : 6,
       "name":"Efrain Juárez",
       "nationality":"MEX",
@@ -56,7 +51,6 @@
       "birthplace":"Mexico City"
     },
     {
-      "ID":6,
       "number":8,
       "name":"Bernie Ibini-Isei",
       "nationality":"AUS",
@@ -67,7 +61,6 @@
       "birthplace":"Port Harcourt"
     },
     {
-      "ID":7,
       "number" : 9,
       "name":"Anthony Blondell",
       "nationality":"VEN",
@@ -78,7 +71,6 @@
       "birthplace":"Cumaná"
     },
     {
-      "ID":8,
       "number" : 11,
       "name":"Nicolás Mezquida",
       "nationality":"URU",
@@ -89,8 +81,7 @@
       "birthplace":"Paysandú"
     },
     {
-      "ID":9,
-      "number" : 2,
+      "number" : 12,
       "name":"Brian Rowe",
       "nationality":"USA",
       "position":"G",
@@ -100,7 +91,6 @@
       "birthplace":"Chicago"
     },
     {
-      "ID":10,
       "number" : 13,
       "name":"Cristian Techera",
       "nationality":"URU",
@@ -111,7 +101,6 @@
       "birthplace":"Paysandú"
     },
     {
-      "ID":11,
       "number" : 14,
       "name":"David Edgar",
       "nationality":"CAN",
@@ -122,7 +111,6 @@
       "birthplace":"Kitchener"
     },
     {
-      "ID":12,
       "number" : 17,
       "name":"Marcel de Jong",
       "nationality":"CAD",
@@ -133,7 +121,6 @@
       "birthplace":"New Market"
     },
     {
-      "ID":13,
       "number" : 18,
       "name":"José Aja",
       "nationality":"URU",
@@ -144,7 +131,6 @@
       "birthplace":"Montevideo"
     },
     {
-      "ID":14,
       "number" : 19,
       "name":"Erik Hurtado",
       "nationality":"USA",
@@ -155,7 +141,6 @@
       "birthplace":"Fredericksburg"
     },
     {
-      "ID":15,
       "number":20,
       "name":"Brek Shea",
       "nationality":"USA",
@@ -167,7 +152,6 @@
     },
 
     {
-      "ID":16,
       "number" : 22,
       "name":"Aaron Maund",
       "nationality":"USA",
@@ -178,7 +162,6 @@
       "birthplace":"Dorchester, MA"
     },
     {
-      "ID":17,
       "number" : 23,
       "name":"Kei Kamara",
       "nationality":"SLE",
@@ -189,7 +172,6 @@
       "birthplace":"Lawndale"
     },
     {
-      "ID":18,
       "number" : 28,
       "name":"Jake Nerwinski",
       "nationality":"USA",
@@ -200,7 +182,6 @@
       "birthplace":"Lawrenceville"
     },
     {
-      "ID":19,
       "number" : 29,
       "name":"Yordi Reyna",
       "nationality":"PER",
@@ -211,7 +192,6 @@
       "birthplace":"Chiclayo"
     },
     {
-      "ID":20,
       "number" : 31,
       "name":"Russell Teibert",
       "nationality":"CAN",
@@ -222,7 +202,6 @@
       "birthplace":"Niagara Falls"
     },
     {
-      "ID":21,
       "number" : 35,
       "name":"Deybi Flores",
       "nationality":"HON",
@@ -233,7 +212,6 @@
       "birthplace":"San Pedro Sula"
     },
     {
-      "ID":22,
       "number" : 45,
       "name":"Myer Bevan",
       "nationality":"NZL",
@@ -245,7 +223,6 @@
     },
 
     {
-      "ID":23,
       "number" : 46,
       "name":"Brett Levis",
       "nationality":"CAN",
@@ -256,7 +233,6 @@
       "birthplace":"Saskatoon"
     },
     {
-      "ID":24,
       "number":66,
       "name":"Ali Ghazal",
       "nationality":"EGY",
@@ -267,7 +243,6 @@
       "birthplace":"Maadi"
     },
     {
-      "ID":25,
       "number" : 67,
       "name":"Alphonso Davies",
       "nationality":"CAN",
@@ -278,7 +253,6 @@
       "birthplace":"Montovia"
     },
     {
-      "ID":26,
       "number" : 77,
       "name":"Jordon Mutch",
       "nationality":"ENG",
